@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>BahApp - Transforme ideias em aplicativos com a BahApp</title>
+        <meta name="description" content="Precisa de um aplicativo para sua empresa? A BahApp oferece soluções personalizadas e profissionais para transformar suas ideias em realidade. Entre em contato conosco para iniciar seu projeto hoje mesmo.">
+        <link rel="icon" type="image/x-icon" href="/bahapp-ico.ico">
+        
+        <meta name="keywords" content="aplicativos, apps, aplicativo, app, software">
+        <meta name="author" content="Rafael Cecchin">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://bahapp.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="BahApp - Transforme suas ideias em aplicativos com a BahApp">
+        <meta property="og:description" content="Precisa de um aplicativo para sua empresa? A BahApp oferece soluções personalizadas e profissionais para transformar suas ideias em realidade. Entre em contato conosco para iniciar seu projeto hoje mesmo.">
+        <meta property="og:image" content="/bahapp-desenvolvimento-de-aplicativos-mobile-og.jpg">
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-6PQ5QEGMK3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6PQ5QEGMK3');
+        </script>
+
+        <style>
+            :root {
+                --white: #ffffff;
+                --yellow: #ffe400;
+                --dark-yellow: #dbc500;
+                --black: #010e0c;
+            }
+
+            body {
+                background-color: var(--black);
+                background: url(/bahapp-background.jpg) no-repeat top center;
+                background-size: cover;
+                min-width: 100vw;
+                min-height: 100vh;
+                overflow: hidden;
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .content {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr auto 1fr;
+                align-items: center;
+                padding: 2rem;
+                gap: 1rem 3rem;
+            }
+
+            .logo {
+                width: 6rem;
+                height: auto;
+                margin-top: 2rem;
+            }
+
+            .phone {
+                width: 25rem;
+                max-width: 100%;
+                height: auto;
+                max-height: 90vh;
+                object-fit: contain;
+                grid-column: 2;
+                grid-row: 1/-1;
+            }
+
+            .text {
+                color: var(--white);
+                font-size: 2.7rem;
+                line-height: 1.2;
+                width: min-content;
+            }
+
+            .text strong {
+                color: var(--yellow);
+            }
+
+            .button {
+                color: var(--black);
+                padding: 1rem 2rem;
+                background-color: var(--yellow);
+                border-radius: .25rem;
+                width: max-content;
+                height: max-content;
+                margin-top: auto;
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 1rem;
+                margin-bottom: 3rem;
+                transition: background-color .2s;
+            }
+
+            .button:hover {
+                background-color: var(--dark-yellow);
+            }
+
+            @media screen and (max-width: 520px), (max-height: 700px) {
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                }
+
+                .logo {
+                    width: 2rem;
+                    height: auto;
+                    margin-top: unset;
+                    position: absolute;
+                    left: 2rem;
+                    top: 2rem;
+                    width: 3rem;
+                }
+
+                .phone {
+                    height: 38vh;
+                }
+
+                .text {
+                    font-size: 1.7rem;
+                    width: auto;
+                    text-align: center;
+                }
+
+                .button {
+                    margin-bottom: unset;
+                }
+            }
+        </style>    
+    </head>
+    <body>
+        <div class="content">
+            <img class="logo"
+                 src="/bahapp-desenvolvimento-de-aplicativos-mobile.png"
+                 width="400"
+                 height="400"
+                 alt="BahApp - Transforme ideias em aplicativos com a BahApp"/>
+            <img class="phone"
+                 src="/bahapp-phone.png"
+                 width="510"
+                 height="1000"
+                 alt="Aplicativos para android e iOS"/>
+            <p class="text">Aplicativos Inteligentes Para <strong>Negócios Inovadores</strong></p>
+            <a class="button" href="https://wa.me/5542991353112" target="_blank">Solicitar orçamento</a>
+        </div>        
+    </body>
+</html>
